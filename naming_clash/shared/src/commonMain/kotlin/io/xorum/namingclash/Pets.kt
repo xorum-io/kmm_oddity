@@ -2,16 +2,12 @@ package io.xorum.namingclash
 
 interface Dog {
 
-    fun eat(food: DogFood)
+    fun eat(food: Food)
 }
-
-class DogFood
 
 interface Cat {
 
-    fun eat(food: CatFood)
+    fun eat(food: Food)
 }
 
-data class CatFood(
-    val isSneaky: Boolean
-)
+class Food
