@@ -1,13 +1,15 @@
 package io.xorum.namingclash
 
-interface Dog {
+abstract class Dog {
 
-    fun eat(food: Food)
+    fun eat(food: Food) {}
+
+    class Food
 }
 
-interface Cat {
+abstract class Cat {
 
-    fun eat(food: Food)
+    fun eat(food: Food) { }
+
+    class Food
 }
-
-class Food
