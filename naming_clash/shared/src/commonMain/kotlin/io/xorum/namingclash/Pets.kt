@@ -12,4 +12,6 @@ interface Cat {
     fun eat(food: CatFood)
 }
 
-class CatFood
+data class CatFood(
+    val isSneaky: Boolean
+)
