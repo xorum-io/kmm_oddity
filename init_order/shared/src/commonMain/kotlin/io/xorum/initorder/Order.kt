@@ -6,6 +6,6 @@ data class Order(
 ) {
 
     init {
-        println("Init order$name")
+        println("Init order$name with dependency to $dependency")
     }
 }
