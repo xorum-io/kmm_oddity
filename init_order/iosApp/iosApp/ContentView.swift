@@ -4,7 +4,7 @@ import shared
 struct ContentView: View {
 
 	var body: some View {
-        Text(OrderKt.orderB.name)
+        Text(OrderBKt.orderB.name)
 	}
 }
 

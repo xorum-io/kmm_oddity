@@ -9,7 +9,3 @@ data class Order(
         println("Init order$name")
     }
 }
-
-val orderA = Order(name = "A", dependency = null)
-
-val orderB = Order(name = "B", dependency = orderA)
