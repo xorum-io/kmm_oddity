@@ -1,3 +1,3 @@
 package io.xorum.initorder
 
-val orderA = Order(name = "A", dependency = orderB)
+val orderB = Order(name = "B", dependency = null)
